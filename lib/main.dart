@@ -18,7 +18,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("My first app"), backgroundColor: Colors.lightBlue, ),
+      appBar: AppBar(title: Text("My first app"),  backgroundColor: Colors.lightBlue, ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
